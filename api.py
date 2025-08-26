@@ -99,4 +99,4 @@ async def reset_pdf_pipeline():
         raise HTTPException(status_code=500, detail=f"PDF Pipeline reset failed: {str(e)}")
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8001)
+    uvicorn.run(app, host="0.0.0.0", port=8080)
