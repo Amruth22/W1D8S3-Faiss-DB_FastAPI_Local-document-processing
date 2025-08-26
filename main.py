@@ -27,7 +27,7 @@ def main():
     
     parser = argparse.ArgumentParser(description="PDF RAG Pipeline API Server")
     parser.add_argument("--host", type=str, default="0.0.0.0", help="Host for the FastAPI server (default: 0.0.0.0)")
-    parser.add_argument("--port", type=int, default=8080, help="Port for the FastAPI server (default: 8001)")
+    parser.add_argument("--port", type=int, default=8080, help="Port for the FastAPI server (default: 8080)")
     parser.add_argument("--reload", action="store_true", help="Enable auto-reload for development")
     
     args = parser.parse_args()
