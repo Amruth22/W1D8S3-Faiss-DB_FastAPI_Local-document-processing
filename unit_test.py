@@ -14,7 +14,7 @@ import json
 
 # Default server configuration (matches main.py default)
 
-BASE_URL = ""
+BASE_URL = "http://localhost:8080"
 # eg ::: BASE_URL= "https://ide-bbfeeedbcaf332013968deeebdeeafecbone.premiumproject.examly.io/proxy/8080/"
 
 class TestPDFRAGPipelineAPI:
